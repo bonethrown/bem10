@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BCC33D2415D512E10024A5B0 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC33D2315D512E10024A5B0 /* testViewController.m */; };
 		BCC33D2615D513750024A5B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */; };
+		BCC33D2915D514900024A5B0 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC33D2815D514900024A5B0 /* testViewController.m */; };
 		BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
 		BCCE04CA15D4F61B003308B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C915D4F61B003308B8 /* Foundation.framework */; };
 		BCCE04CC15D4F61B003308B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CB15D4F61B003308B8 /* CoreGraphics.framework */; };
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BCC33D2215D512E10024A5B0 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = ../../singleciewcamera/singleciewcamera/testViewController.h; sourceTree = "<group>"; };
-		BCC33D2315D512E10024A5B0 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = ../../singleciewcamera/singleciewcamera/testViewController.m; sourceTree = "<group>"; };
 		BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BCC33D2715D514900024A5B0 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		BCC33D2815D514900024A5B0 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		BCCE04C315D4F61B003308B8 /* bem10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bem10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCE04C715D4F61B003308B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCCE04C915D4F61B003308B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,8 +122,8 @@
 		BCCE04CF15D4F61B003308B8 /* bem10 */ = {
 			isa = PBXGroup;
 			children = (
-				BCC33D2215D512E10024A5B0 /* testViewController.h */,
-				BCC33D2315D512E10024A5B0 /* testViewController.m */,
+				BCC33D2715D514900024A5B0 /* testViewController.h */,
+				BCC33D2815D514900024A5B0 /* testViewController.m */,
 				BCCE04D815D4F61B003308B8 /* bemAppDelegate.h */,
 				BCCE04D915D4F61B003308B8 /* bemAppDelegate.m */,
 				BCCE04DB15D4F61B003308B8 /* MainStoryboard.storyboard */,
@@ -260,7 +260,7 @@
 				BCCE04E015D4F61B003308B8 /* bem10.xcdatamodeld in Sources */,
 				BCCE04E315D4F61B003308B8 /* bemMasterViewController.m in Sources */,
 				BCCE04E615D4F61B003308B8 /* bemDetailViewController.m in Sources */,
-				BCC33D2415D512E10024A5B0 /* testViewController.m in Sources */,
+				BCC33D2915D514900024A5B0 /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
