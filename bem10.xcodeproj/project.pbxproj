@@ -24,6 +24,7 @@
 		BCCE04F115D4F61B003308B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CD15D4F61B003308B8 /* CoreData.framework */; };
 		BCCE04F915D4F61B003308B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCCE04F715D4F61B003308B8 /* InfoPlist.strings */; };
 		BCCE04FC15D4F61B003308B8 /* bem10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04FB15D4F61B003308B8 /* bem10Tests.m */; };
+		BCCE050715D4F6A1003308B8 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE050615D4F6A1003308B8 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		BCCE04F815D4F61B003308B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCCE04FA15D4F61B003308B8 /* bem10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bem10Tests.h; sourceTree = "<group>"; };
 		BCCE04FB15D4F61B003308B8 /* bem10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bem10Tests.m; sourceTree = "<group>"; };
+		BCCE050515D4F6A1003308B8 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = ../../singleciewcamera/singleciewcamera/testViewController.h; sourceTree = "<group>"; };
+		BCCE050615D4F6A1003308B8 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = ../../singleciewcamera/singleciewcamera/testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 		BCCE04CF15D4F61B003308B8 /* bem10 */ = {
 			isa = PBXGroup;
 			children = (
+				BCCE050515D4F6A1003308B8 /* testViewController.h */,
+				BCCE050615D4F6A1003308B8 /* testViewController.m */,
 				BCCE04D815D4F61B003308B8 /* bemAppDelegate.h */,
 				BCCE04D915D4F61B003308B8 /* bemAppDelegate.m */,
 				BCCE04DB15D4F61B003308B8 /* MainStoryboard.storyboard */,
@@ -278,6 +283,7 @@
 				BCCE04E015D4F61B003308B8 /* bem10.xcdatamodeld in Sources */,
 				BCCE04E315D4F61B003308B8 /* bemMasterViewController.m in Sources */,
 				BCCE04E615D4F61B003308B8 /* bemDetailViewController.m in Sources */,
+				BCCE050715D4F6A1003308B8 /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
