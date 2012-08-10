@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
+		BCCE04CA15D4F61B003308B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C915D4F61B003308B8 /* Foundation.framework */; };
+		BCCE04CC15D4F61B003308B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CB15D4F61B003308B8 /* CoreGraphics.framework */; };
+		BCCE04CE15D4F61B003308B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CD15D4F61B003308B8 /* CoreData.framework */; };
+		BCCE04D415D4F61B003308B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCCE04D215D4F61B003308B8 /* InfoPlist.strings */; };
+		BCCE04D615D4F61B003308B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04D515D4F61B003308B8 /* main.m */; };
+		BCCE04DA15D4F61B003308B8 /* bemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04D915D4F61B003308B8 /* bemAppDelegate.m */; };
+		BCCE04DD15D4F61B003308B8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCE04DB15D4F61B003308B8 /* MainStoryboard.storyboard */; };
+		BCCE04E015D4F61B003308B8 /* bem10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04DE15D4F61B003308B8 /* bem10.xcdatamodeld */; };
+		BCCE04E315D4F61B003308B8 /* bemMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04E215D4F61B003308B8 /* bemMasterViewController.m */; };
+		BCCE04E615D4F61B003308B8 /* bemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04E515D4F61B003308B8 /* bemDetailViewController.m */; };
+		BCCE04EE15D4F61B003308B8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04ED15D4F61B003308B8 /* SenTestingKit.framework */; };
+		BCCE04EF15D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
+		BCCE04F015D4F61B003308B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C915D4F61B003308B8 /* Foundation.framework */; };
+		BCCE04F115D4F61B003308B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CD15D4F61B003308B8 /* CoreData.framework */; };
+		BCCE04F915D4F61B003308B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCCE04F715D4F61B003308B8 /* InfoPlist.strings */; };
+		BCCE04FC15D4F61B003308B8 /* bem10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04FB15D4F61B003308B8 /* bem10Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCE04F215D4F61B003308B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCE04BA15D4F61B003308B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCE04C215D4F61B003308B8;
+			remoteInfo = bem10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCCE04C315D4F61B003308B8 /* bem10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bem10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCE04C715D4F61B003308B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCCE04C915D4F61B003308B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCCE04CB15D4F61B003308B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCCE04CD15D4F61B003308B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BCCE04D115D4F61B003308B8 /* bem10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bem10-Info.plist"; sourceTree = "<group>"; };
+		BCCE04D315D4F61B003308B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCCE04D515D4F61B003308B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCE04D715D4F61B003308B8 /* bem10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bem10-Prefix.pch"; sourceTree = "<group>"; };
+		BCCE04D815D4F61B003308B8 /* bemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bemAppDelegate.h; sourceTree = "<group>"; };
+		BCCE04D915D4F61B003308B8 /* bemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bemAppDelegate.m; sourceTree = "<group>"; };
+		BCCE04DC15D4F61B003308B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BCCE04DF15D4F61B003308B8 /* bem10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bem10.xcdatamodel; sourceTree = "<group>"; };
+		BCCE04E115D4F61B003308B8 /* bemMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bemMasterViewController.h; sourceTree = "<group>"; };
+		BCCE04E215D4F61B003308B8 /* bemMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bemMasterViewController.m; sourceTree = "<group>"; };
+		BCCE04E415D4F61B003308B8 /* bemDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bemDetailViewController.h; sourceTree = "<group>"; };
+		BCCE04E515D4F61B003308B8 /* bemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bemDetailViewController.m; sourceTree = "<group>"; };
+		BCCE04EC15D4F61B003308B8 /* bem10Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bem10Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCE04ED15D4F61B003308B8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCCE04F615D4F61B003308B8 /* bem10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bem10Tests-Info.plist"; sourceTree = "<group>"; };
+		BCCE04F815D4F61B003308B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCCE04FA15D4F61B003308B8 /* bem10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bem10Tests.h; sourceTree = "<group>"; };
+		BCCE04FB15D4F61B003308B8 /* bem10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bem10Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCE04C015D4F61B003308B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */,
+				BCCE04CA15D4F61B003308B8 /* Foundation.framework in Frameworks */,
+				BCCE04CC15D4F61B003308B8 /* CoreGraphics.framework in Frameworks */,
+				BCCE04CE15D4F61B003308B8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCE04E815D4F61B003308B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE04EE15D4F61B003308B8 /* SenTestingKit.framework in Frameworks */,
+				BCCE04EF15D4F61B003308B8 /* UIKit.framework in Frameworks */,
+				BCCE04F015D4F61B003308B8 /* Foundation.framework in Frameworks */,
+				BCCE04F115D4F61B003308B8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCE04B815D4F61B003308B8 = {
+			isa = PBXGroup;
+			children = (
+				BCCE04CF15D4F61B003308B8 /* bem10 */,
+				BCCE04F415D4F61B003308B8 /* bem10Tests */,
+				BCCE04C615D4F61B003308B8 /* Frameworks */,
+				BCCE04C415D4F61B003308B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCE04C415D4F61B003308B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE04C315D4F61B003308B8 /* bem10.app */,
+				BCCE04EC15D4F61B003308B8 /* bem10Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCE04C615D4F61B003308B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE04C715D4F61B003308B8 /* UIKit.framework */,
+				BCCE04C915D4F61B003308B8 /* Foundation.framework */,
+				BCCE04CB15D4F61B003308B8 /* CoreGraphics.framework */,
+				BCCE04CD15D4F61B003308B8 /* CoreData.framework */,
+				BCCE04ED15D4F61B003308B8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCE04CF15D4F61B003308B8 /* bem10 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE04D815D4F61B003308B8 /* bemAppDelegate.h */,
+				BCCE04D915D4F61B003308B8 /* bemAppDelegate.m */,
+				BCCE04DB15D4F61B003308B8 /* MainStoryboard.storyboard */,
+				BCCE04E115D4F61B003308B8 /* bemMasterViewController.h */,
+				BCCE04E215D4F61B003308B8 /* bemMasterViewController.m */,
+				BCCE04E415D4F61B003308B8 /* bemDetailViewController.h */,
+				BCCE04E515D4F61B003308B8 /* bemDetailViewController.m */,
+				BCCE04DE15D4F61B003308B8 /* bem10.xcdatamodeld */,
+				BCCE04D015D4F61B003308B8 /* Supporting Files */,
+			);
+			path = bem10;
+			sourceTree = "<group>";
+		};
+		BCCE04D015D4F61B003308B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE04D115D4F61B003308B8 /* bem10-Info.plist */,
+				BCCE04D215D4F61B003308B8 /* InfoPlist.strings */,
+				BCCE04D515D4F61B003308B8 /* main.m */,
+				BCCE04D715D4F61B003308B8 /* bem10-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCE04F415D4F61B003308B8 /* bem10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE04FA15D4F61B003308B8 /* bem10Tests.h */,
+				BCCE04FB15D4F61B003308B8 /* bem10Tests.m */,
+				BCCE04F515D4F61B003308B8 /* Supporting Files */,
+			);
+			path = bem10Tests;
+			sourceTree = "<group>";
+		};
+		BCCE04F515D4F61B003308B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE04F615D4F61B003308B8 /* bem10Tests-Info.plist */,
+				BCCE04F715D4F61B003308B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCE04C215D4F61B003308B8 /* bem10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCE04FF15D4F61B003308B8 /* Build configuration list for PBXNativeTarget "bem10" */;
+			buildPhases = (
+				BCCE04BF15D4F61B003308B8 /* Sources */,
+				BCCE04C015D4F61B003308B8 /* Frameworks */,
+				BCCE04C115D4F61B003308B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bem10;
+			productName = bem10;
+			productReference = BCCE04C315D4F61B003308B8 /* bem10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCE04EB15D4F61B003308B8 /* bem10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCE050215D4F61B003308B8 /* Build configuration list for PBXNativeTarget "bem10Tests" */;
+			buildPhases = (
+				BCCE04E715D4F61B003308B8 /* Sources */,
+				BCCE04E815D4F61B003308B8 /* Frameworks */,
+				BCCE04E915D4F61B003308B8 /* Resources */,
+				BCCE04EA15D4F61B003308B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCE04F315D4F61B003308B8 /* PBXTargetDependency */,
+			);
+			name = bem10Tests;
+			productName = bem10Tests;
+			productReference = BCCE04EC15D4F61B003308B8 /* bem10Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCE04BA15D4F61B003308B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bem;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "kaya tilev";
+			};
+			buildConfigurationList = BCCE04BD15D4F61B003308B8 /* Build configuration list for PBXProject "bem10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCCE04B815D4F61B003308B8;
+			productRefGroup = BCCE04C415D4F61B003308B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCE04C215D4F61B003308B8 /* bem10 */,
+				BCCE04EB15D4F61B003308B8 /* bem10Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCE04C115D4F61B003308B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE04D415D4F61B003308B8 /* InfoPlist.strings in Resources */,
+				BCCE04DD15D4F61B003308B8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCE04E915D4F61B003308B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE04F915D4F61B003308B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCCE04EA15D4F61B003308B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCE04BF15D4F61B003308B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE04D615D4F61B003308B8 /* main.m in Sources */,
+				BCCE04DA15D4F61B003308B8 /* bemAppDelegate.m in Sources */,
+				BCCE04E015D4F61B003308B8 /* bem10.xcdatamodeld in Sources */,
+				BCCE04E315D4F61B003308B8 /* bemMasterViewController.m in Sources */,
+				BCCE04E615D4F61B003308B8 /* bemDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCE04E715D4F61B003308B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE04FC15D4F61B003308B8 /* bem10Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCE04F315D4F61B003308B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCE04C215D4F61B003308B8 /* bem10 */;
+			targetProxy = BCCE04F215D4F61B003308B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCE04D215D4F61B003308B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCE04D315D4F61B003308B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCCE04DB15D4F61B003308B8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCE04DC15D4F61B003308B8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCE04F715D4F61B003308B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCE04F815D4F61B003308B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCE04FD15D4F61B003308B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCCE04FE15D4F61B003308B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCE050015D4F61B003308B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bem10/bem10-Prefix.pch";
+				INFOPLIST_FILE = "bem10/bem10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCCE050115D4F61B003308B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bem10/bem10-Prefix.pch";
+				INFOPLIST_FILE = "bem10/bem10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCCE050315D4F61B003308B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bem10.app/bem10";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bem10/bem10-Prefix.pch";
+				INFOPLIST_FILE = "bem10Tests/bem10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BCCE050415D4F61B003308B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bem10.app/bem10";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bem10/bem10-Prefix.pch";
+				INFOPLIST_FILE = "bem10Tests/bem10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCE04BD15D4F61B003308B8 /* Build configuration list for PBXProject "bem10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCE04FD15D4F61B003308B8 /* Debug */,
+				BCCE04FE15D4F61B003308B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCE04FF15D4F61B003308B8 /* Build configuration list for PBXNativeTarget "bem10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCE050015D4F61B003308B8 /* Debug */,
+				BCCE050115D4F61B003308B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCE050215D4F61B003308B8 /* Build configuration list for PBXNativeTarget "bem10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCE050315D4F61B003308B8 /* Debug */,
+				BCCE050415D4F61B003308B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCCE04DE15D4F61B003308B8 /* bem10.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCCE04DF15D4F61B003308B8 /* bem10.xcdatamodel */,
+			);
+			currentVersion = BCCE04DF15D4F61B003308B8 /* bem10.xcdatamodel */;
+			path = bem10.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCCE04BA15D4F61B003308B8 /* Project object */;
+}
