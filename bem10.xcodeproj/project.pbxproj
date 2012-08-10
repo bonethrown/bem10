@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCC33D2415D512E10024A5B0 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC33D2315D512E10024A5B0 /* testViewController.m */; };
+		BCC33D2615D513750024A5B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */; };
 		BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
 		BCCE04CA15D4F61B003308B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C915D4F61B003308B8 /* Foundation.framework */; };
 		BCCE04CC15D4F61B003308B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CB15D4F61B003308B8 /* CoreGraphics.framework */; };
@@ -22,9 +24,6 @@
 		BCCE04EF15D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
 		BCCE04F015D4F61B003308B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C915D4F61B003308B8 /* Foundation.framework */; };
 		BCCE04F115D4F61B003308B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04CD15D4F61B003308B8 /* CoreData.framework */; };
-		BCCE04F915D4F61B003308B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCCE04F715D4F61B003308B8 /* InfoPlist.strings */; };
-		BCCE04FC15D4F61B003308B8 /* bem10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE04FB15D4F61B003308B8 /* bem10Tests.m */; };
-		BCCE050715D4F6A1003308B8 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE050615D4F6A1003308B8 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCC33D2215D512E10024A5B0 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = ../../singleciewcamera/singleciewcamera/testViewController.h; sourceTree = "<group>"; };
+		BCC33D2315D512E10024A5B0 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = ../../singleciewcamera/singleciewcamera/testViewController.m; sourceTree = "<group>"; };
+		BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BCCE04C315D4F61B003308B8 /* bem10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bem10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCE04C715D4F61B003308B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCCE04C915D4F61B003308B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,12 +59,6 @@
 		BCCE04E515D4F61B003308B8 /* bemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bemDetailViewController.m; sourceTree = "<group>"; };
 		BCCE04EC15D4F61B003308B8 /* bem10Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bem10Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCE04ED15D4F61B003308B8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BCCE04F615D4F61B003308B8 /* bem10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bem10Tests-Info.plist"; sourceTree = "<group>"; };
-		BCCE04F815D4F61B003308B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BCCE04FA15D4F61B003308B8 /* bem10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bem10Tests.h; sourceTree = "<group>"; };
-		BCCE04FB15D4F61B003308B8 /* bem10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bem10Tests.m; sourceTree = "<group>"; };
-		BCCE050515D4F6A1003308B8 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = ../../singleciewcamera/singleciewcamera/testViewController.h; sourceTree = "<group>"; };
-		BCCE050615D4F6A1003308B8 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = ../../singleciewcamera/singleciewcamera/testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC33D2615D513750024A5B0 /* MobileCoreServices.framework in Frameworks */,
 				BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */,
 				BCCE04CA15D4F61B003308B8 /* Foundation.framework in Frameworks */,
 				BCCE04CC15D4F61B003308B8 /* CoreGraphics.framework in Frameworks */,
@@ -94,8 +91,8 @@
 		BCCE04B815D4F61B003308B8 = {
 			isa = PBXGroup;
 			children = (
+				BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */,
 				BCCE04CF15D4F61B003308B8 /* bem10 */,
-				BCCE04F415D4F61B003308B8 /* bem10Tests */,
 				BCCE04C615D4F61B003308B8 /* Frameworks */,
 				BCCE04C415D4F61B003308B8 /* Products */,
 			);
@@ -125,8 +122,8 @@
 		BCCE04CF15D4F61B003308B8 /* bem10 */ = {
 			isa = PBXGroup;
 			children = (
-				BCCE050515D4F6A1003308B8 /* testViewController.h */,
-				BCCE050615D4F6A1003308B8 /* testViewController.m */,
+				BCC33D2215D512E10024A5B0 /* testViewController.h */,
+				BCC33D2315D512E10024A5B0 /* testViewController.m */,
 				BCCE04D815D4F61B003308B8 /* bemAppDelegate.h */,
 				BCCE04D915D4F61B003308B8 /* bemAppDelegate.m */,
 				BCCE04DB15D4F61B003308B8 /* MainStoryboard.storyboard */,
@@ -147,25 +144,6 @@
 				BCCE04D215D4F61B003308B8 /* InfoPlist.strings */,
 				BCCE04D515D4F61B003308B8 /* main.m */,
 				BCCE04D715D4F61B003308B8 /* bem10-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BCCE04F415D4F61B003308B8 /* bem10Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BCCE04FA15D4F61B003308B8 /* bem10Tests.h */,
-				BCCE04FB15D4F61B003308B8 /* bem10Tests.m */,
-				BCCE04F515D4F61B003308B8 /* Supporting Files */,
-			);
-			path = bem10Tests;
-			sourceTree = "<group>";
-		};
-		BCCE04F515D4F61B003308B8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCCE04F615D4F61B003308B8 /* bem10Tests-Info.plist */,
-				BCCE04F715D4F61B003308B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -251,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCCE04F915D4F61B003308B8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +260,7 @@
 				BCCE04E015D4F61B003308B8 /* bem10.xcdatamodeld in Sources */,
 				BCCE04E315D4F61B003308B8 /* bemMasterViewController.m in Sources */,
 				BCCE04E615D4F61B003308B8 /* bemDetailViewController.m in Sources */,
-				BCCE050715D4F6A1003308B8 /* testViewController.m in Sources */,
+				BCC33D2415D512E10024A5B0 /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCCE04FC15D4F61B003308B8 /* bem10Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +296,6 @@
 				BCCE04DC15D4F61B003308B8 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		BCCE04F715D4F61B003308B8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCCE04F815D4F61B003308B8 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,6 +425,7 @@
 				BCCE050115D4F61B003308B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCCE050215D4F61B003308B8 /* Build configuration list for PBXNativeTarget "bem10Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +434,7 @@
 				BCCE050415D4F61B003308B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
