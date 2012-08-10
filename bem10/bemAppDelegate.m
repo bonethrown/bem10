@@ -9,6 +9,8 @@
 #import "bemAppDelegate.h"
 
 #import "bemMasterViewController.h"
+#import "testViewController.h"
+
 
 @implementation bemAppDelegate
 
@@ -20,8 +22,8 @@
 {
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    bemMasterViewController *controller = (bemMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    testViewController *controller = (bemMasterViewController *)navigationController.topViewController;
+    //controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							
