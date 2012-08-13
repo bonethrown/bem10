@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCACD40115D5337D0034E0C7 /* mainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCACD40015D5337D0034E0C7 /* mainItem.m */; };
 		BCC33D2615D513750024A5B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */; };
 		BCC33D2915D514900024A5B0 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC33D2815D514900024A5B0 /* testViewController.m */; };
 		BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCACD3FF15D5337D0034E0C7 /* mainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainItem.h; sourceTree = "<group>"; };
+		BCACD40015D5337D0034E0C7 /* mainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainItem.m; sourceTree = "<group>"; };
 		BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BCC33D2715D514900024A5B0 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		BCC33D2815D514900024A5B0 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				BCCE04E515D4F61B003308B8 /* bemDetailViewController.m */,
 				BCCE04DE15D4F61B003308B8 /* bem10.xcdatamodeld */,
 				BCCE04D015D4F61B003308B8 /* Supporting Files */,
+				BCACD3FF15D5337D0034E0C7 /* mainItem.h */,
+				BCACD40015D5337D0034E0C7 /* mainItem.m */,
 			);
 			path = bem10;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				BCCE04E315D4F61B003308B8 /* bemMasterViewController.m in Sources */,
 				BCCE04E615D4F61B003308B8 /* bemDetailViewController.m in Sources */,
 				BCC33D2915D514900024A5B0 /* testViewController.m in Sources */,
+				BCACD40115D5337D0034E0C7 /* mainItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
