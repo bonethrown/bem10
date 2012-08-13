@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A96A8B5F15D8D81B00D799A8 /* allposts.png in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5815D8D81B00D799A8 /* allposts.png */; };
+		A96A8B6015D8D81B00D799A8 /* Instagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5915D8D81B00D799A8 /* Instagram.jpg */; };
+		A96A8B6115D8D81B00D799A8 /* mainbackgroundgray.png in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5A15D8D81B00D799A8 /* mainbackgroundgray.png */; };
+		A96A8B6215D8D81B00D799A8 /* messageoutlinewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5B15D8D81B00D799A8 /* messageoutlinewhite.png */; };
+		A96A8B6315D8D81B00D799A8 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5C15D8D81B00D799A8 /* my.png */; };
+		A96A8B6415D8D81B00D799A8 /* postcomment.png in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5D15D8D81B00D799A8 /* postcomment.png */; };
+		A96A8B6515D8D81B00D799A8 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = A96A8B5E15D8D81B00D799A8 /* smile.png */; };
 		BCC33D2615D513750024A5B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */; };
 		BCC33D2915D514900024A5B0 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC33D2815D514900024A5B0 /* testViewController.m */; };
 		BCCE04C815D4F61B003308B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE04C715D4F61B003308B8 /* UIKit.framework */; };
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A96A8B5815D8D81B00D799A8 /* allposts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = allposts.png; path = Images/allposts.png; sourceTree = "<group>"; };
+		A96A8B5915D8D81B00D799A8 /* Instagram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Instagram.jpg; path = Images/Instagram.jpg; sourceTree = "<group>"; };
+		A96A8B5A15D8D81B00D799A8 /* mainbackgroundgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainbackgroundgray.png; path = Images/mainbackgroundgray.png; sourceTree = "<group>"; };
+		A96A8B5B15D8D81B00D799A8 /* messageoutlinewhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = messageoutlinewhite.png; path = Images/messageoutlinewhite.png; sourceTree = "<group>"; };
+		A96A8B5C15D8D81B00D799A8 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = my.png; path = Images/my.png; sourceTree = "<group>"; };
+		A96A8B5D15D8D81B00D799A8 /* postcomment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = postcomment.png; path = Images/postcomment.png; sourceTree = "<group>"; };
+		A96A8B5E15D8D81B00D799A8 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = Images/smile.png; sourceTree = "<group>"; };
 		BCC33D2515D513750024A5B0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BCC33D2715D514900024A5B0 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		BCC33D2815D514900024A5B0 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
@@ -88,6 +102,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A96A8B3E15D536F900D799A8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A96A8B5815D8D81B00D799A8 /* allposts.png */,
+				A96A8B5915D8D81B00D799A8 /* Instagram.jpg */,
+				A96A8B5A15D8D81B00D799A8 /* mainbackgroundgray.png */,
+				A96A8B5B15D8D81B00D799A8 /* messageoutlinewhite.png */,
+				A96A8B5C15D8D81B00D799A8 /* my.png */,
+				A96A8B5D15D8D81B00D799A8 /* postcomment.png */,
+				A96A8B5E15D8D81B00D799A8 /* smile.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		BCCE04B815D4F61B003308B8 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +150,7 @@
 		BCCE04CF15D4F61B003308B8 /* bem10 */ = {
 			isa = PBXGroup;
 			children = (
+				A96A8B3E15D536F900D799A8 /* Images */,
 				BCC33D2715D514900024A5B0 /* testViewController.h */,
 				BCC33D2815D514900024A5B0 /* testViewController.m */,
 				BCCE04D815D4F61B003308B8 /* bemAppDelegate.h */,
@@ -222,6 +251,13 @@
 			files = (
 				BCCE04D415D4F61B003308B8 /* InfoPlist.strings in Resources */,
 				BCCE04DD15D4F61B003308B8 /* MainStoryboard.storyboard in Resources */,
+				A96A8B5F15D8D81B00D799A8 /* allposts.png in Resources */,
+				A96A8B6015D8D81B00D799A8 /* Instagram.jpg in Resources */,
+				A96A8B6115D8D81B00D799A8 /* mainbackgroundgray.png in Resources */,
+				A96A8B6215D8D81B00D799A8 /* messageoutlinewhite.png in Resources */,
+				A96A8B6315D8D81B00D799A8 /* my.png in Resources */,
+				A96A8B6415D8D81B00D799A8 /* postcomment.png in Resources */,
+				A96A8B6515D8D81B00D799A8 /* smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,6 @@
 //
 
 #import "bemMasterViewController.h"
-
 #import "bemDetailViewController.h"
 
 @interface bemMasterViewController ()
